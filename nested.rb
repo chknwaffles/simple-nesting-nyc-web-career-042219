@@ -117,7 +117,7 @@ end
 
 def adding_to_dennis
 	programmer_hash = 
- 		{
+ 	{
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
@@ -130,6 +130,7 @@ def adding_to_dennis
           :known_for => "Unix",
           :languages => ["C"]
         }
-     }
-
+  }
+  dennis_new_info = ["C", "Assembly"]
+  programmer_hash[:dennis_ritchie][:languages] = dennis_new_info
 end
